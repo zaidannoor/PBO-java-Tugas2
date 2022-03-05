@@ -10,6 +10,6 @@ package app;
  * @author Lenovo
  */
 public interface MenghitungRuang {
-    public void HitungVolume();
+    public float HitungVolume();
     
 }

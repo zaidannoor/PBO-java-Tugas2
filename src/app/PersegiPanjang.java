@@ -19,15 +19,15 @@ public class PersegiPanjang implements MenghitungBidang {
     }
 
     @Override
-    public void HitungKeliling() {
+    public float HitungKeliling() {
         float keliling = (panjang+lebar) * 2;
-        System.out.println("Luas Persegi panjang = " + keliling);
+        return keliling;
     }
 
     @Override
-    public void HitungLuas() {
+    public float HitungLuas() {
         float luas = panjang * lebar;
-        System.out.println("Luas Persegi panjang = " + luas);
+        return luas;
     }
     
     

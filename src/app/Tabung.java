@@ -20,8 +20,15 @@ public class Tabung extends Lingkaran implements MenghitungRuang {
     
     
     @Override
-    public void HitungVolume() {
+    public float HitungVolume() {
         float volume = 3.14f * r * r * tinggi;
+        return volume;
+    }
+    
+    public float HitungLuas(float tinggi, float r) {
+        float luasP = (2 * HitungLuas()) + (tinggi * HitungKeliling());
+        return luasP;
+        
     }
     
     

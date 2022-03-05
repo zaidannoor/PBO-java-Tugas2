@@ -20,15 +20,15 @@ public class Balok extends PersegiPanjang implements MenghitungRuang  {
    
     
     @Override
-    public void HitungVolume() {
+    public float HitungVolume() {
         float volume = panjang * lebar * tinggi;
-        System.out.println("Volume Balok = " + volume);
+        return volume;
     }
 
     // overload 
-    public void HitungLuas(float panjang,float tinggi,float lebar) {
-        float luasp = (panjang * lebar + panjang * tinggi + lebar * tinggi) * 2;
-        System.out.println("Luas Permukaan balok = " + luasp);
+    public float HitungLuas(float panjang,float tinggi,float lebar) {
+        float luasP = (panjang * lebar + panjang * tinggi + lebar * tinggi) * 2;
+        return luasP;
     }
 
     

@@ -17,21 +17,27 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
-        float panjang = input.nextFloat();
-        float lebar = input.nextFloat();
-        float tinggi = input.nextFloat();
+//        float panjang = input.nextFloat();
+//        float lebar = input.nextFloat();
+//        float tinggi = input.nextFloat();
+//        
+//        Balok balok = new Balok(tinggi, panjang, lebar);
+//        
+//        balok.HitungLuas();
+//        balok.HitungKeliling();
+//        balok.HitungLuas(panjang, tinggi, lebar);
+//        balok.HitungVolume();
+
+          float r = input.nextFloat();
+          float tinggi = input.nextFloat();
+          
+          Tabung tabung = new Tabung(tinggi,r);
+          System.out.println("Tes");
+          System.out.println("Keliling Lingkaran = " + tabung.HitungKeliling());
+          System.out.println("Luas Lingkaran = " + tabung.HitungLuas());
+          System.out.println("Luas Permukaan = " + tabung.HitungLuas(tinggi,r));
+          System.out.println("Volume = " + tabung.HitungVolume());
         
-        Balok balok = new Balok(tinggi, panjang, lebar);
-        
-        balok.HitungLuas();
-        balok.HitungKeliling();
-        balok.HitungLuas(panjang, tinggi, lebar);
-        balok.HitungVolume();
-        
-        System.out.println("");
-        int r = 10;
-        float angka = 3.14f * r * r;
-        System.out.println(angka);
         
         
     }

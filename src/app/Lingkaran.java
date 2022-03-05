@@ -17,16 +17,16 @@ public class Lingkaran implements MenghitungBidang {
     }
     
     @Override
-    public void HitungKeliling() {
+    public float HitungKeliling() {
         float keliling = 3.14f * r * 2;
-        System.out.println("Keliling Lingkaran = " + keliling);
+        return keliling;
     }
     
     
     @Override
-    public void HitungLuas() {
+    public float HitungLuas() {
         float luas = 3.14f * r * r;
-        System.out.println("Luas Lingkaran = " + luas);
+        return luas;
     }
 
     

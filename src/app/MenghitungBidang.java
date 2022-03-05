@@ -11,6 +11,6 @@ package app;
  */
 public interface MenghitungBidang {
     
-    public void HitungLuas();
-    public void HitungKeliling();
+    public float HitungLuas();
+    public float HitungKeliling();
 }
