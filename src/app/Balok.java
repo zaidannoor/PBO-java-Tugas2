@@ -9,6 +9,7 @@ package app;
  *
  * @author Lenovo
  */
+// class Balok merupakan child class PersegiPanjang yang mengimplementasi class MenghitungRuang
 public class Balok extends PersegiPanjang implements MenghitungRuang  {
     protected float tinggi;
 
@@ -17,8 +18,6 @@ public class Balok extends PersegiPanjang implements MenghitungRuang  {
         this.tinggi = tinggi;
     }
 
-   
-    
     @Override
     public float HitungVolume() {
         float volume = panjang * lebar * tinggi;

@@ -9,8 +9,8 @@ package app;
  *
  * @author Lenovo
  */
+// class interface MenghitungBidang
 public interface MenghitungBidang {
-    
     public float HitungLuas();
     public float HitungKeliling();
 }

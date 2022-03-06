@@ -9,6 +9,7 @@ package app;
  *
  * @author Lenovo
  */
+// class Lingkaran mengimplementasi class MenghitungBidang
 public class Lingkaran implements MenghitungBidang {
     protected float r;
 
@@ -21,7 +22,6 @@ public class Lingkaran implements MenghitungBidang {
         float keliling = 3.14f * r * 2;
         return keliling;
     }
-    
     
     @Override
     public float HitungLuas() {

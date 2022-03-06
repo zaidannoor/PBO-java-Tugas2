@@ -9,6 +9,7 @@ package app;
  *
  * @author Lenovo
  */
+// class Tabung merupakan child class Lingkaran yang mengimplementasi class MenghitungRuang
 public class Tabung extends Lingkaran implements MenghitungRuang {
     protected float tinggi;
 
@@ -16,8 +17,6 @@ public class Tabung extends Lingkaran implements MenghitungRuang {
         super(r);
         this.tinggi = tinggi;
     }
-    
-    
     
     @Override
     public float HitungVolume() {

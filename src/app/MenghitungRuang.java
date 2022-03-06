@@ -9,6 +9,7 @@ package app;
  *
  * @author Lenovo
  */
+// class interface MenghitungRuang
 public interface MenghitungRuang {
     public float HitungVolume();
     

@@ -9,6 +9,7 @@ package app;
  *
  * @author Lenovo
  */
+// class PersegiPanjang mengimplementasi class MenghitungBidang
 public class PersegiPanjang implements MenghitungBidang {
     protected float panjang;
     protected float lebar;
