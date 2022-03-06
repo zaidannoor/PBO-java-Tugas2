@@ -55,6 +55,9 @@ public class Main {
                 System.out.println("Volume Tabung = " + tabung.HitungVolume());
                 System.out.println("Luas Permukaan Tabung = " + tabung.HitungLuas(tinggi,r));
             }
+            else if(pilih == 0){
+                break;
+            }
             else{
                 System.out.println("Masukkan angka 1 atau 2 saja");
             }
